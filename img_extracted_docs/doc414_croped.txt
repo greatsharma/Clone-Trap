@@ -1,0 +1,27 @@
+Algorithms for optimization problems typically go through a sequence of steps
+with a set of choices at each step. For many optimization problems, using dynamic
+Programming to determine the best choices is overkill; simpler, more efficient a.
+gorithms will do. A greedy algorithm always makes the choice that looks best at
+the moment. That is, it makes a locally optimal choice in the hope that this choice
+will lead to a globally optimal solution. This chapter explores optimization prob.
+lems for which greedy algorithms provide optimal solutions. Before reading this
+chapter, you should read about dynamic programming in Chapter 15, particularly
+Section 15.3.
+
+Greedy algorithms do not always yield optimal solutions, but for many problems
+they do. We shall first examine, in Section 16.1, a simple but nontrivial problem,
+the activity-selection problem, for which a greedy algorithm efficiently computes
+an optimal solution. We shall arrive at the greedy algorithm by first consider
+ing a dynamic-programming approach and then showing that we can always make
+greedy choices to arrive at an optimal solution. Section 16.2 reviews the basic
+elements of the greedy approach, giving a direct approach for proving greedy al-
+gorithms correct. Section 16.3 presents an important application of greedy tech-
+niques: designing data-compression (Huffman) codes. In Section 16.4, we inves-
+
+tigate some of the theory underlying combinatorial structures called “matroids,”
+for which a greedy algorithm always produces an optimal solution. Finally, Sec-
+tion 16.5 applies matroids to solve a problem of scheduling unit-time tasks with
+
+deadlines and penalties.
+
+oe . a me eg

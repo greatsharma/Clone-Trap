@@ -1,0 +1,38 @@
+Algorithms for optimization problems typically go through a sequence of Steps
+
+With a set of choices at each step. For many optimization problems, using dynamic
+
+Programming to determine the best choices is overkill; simpler, more efficient aj.
+
+gorithms will do. A greedy algorithm always makes the choice that looks best at
+
+the moment. That is, it makes a locally optimal choice in the hope that this choice
+
+will lead to a globally optimal solution. This chapter explores optimization prob.
+
+Jems for which greedy algorithms provide optimal solutions. Before reading this
+chapter, you should read about dynamic programming in Chapter 15, particularly
+Section 15.3.
+
+Greedy algorithms do not always yield optimal solutions, but for many problems
+
+they do. We shall first examine, in Section 16.1, a simple but nontrivial problem,
+the activity-selection problem, for which a greedy algorithm efficiently computes
+an optimal solution. We shall arrive at the greedy algorithm by first consider-
+ing a dynamic-programming approach and then showing that we can always make
+greedy choices to arrive at an optimal solution. Section 16.2 reviews the basic
+elements of the greedy approach, giving a direct approach for proving greedy al-
+gorithms correct. Section 16.3 presents an important application of greedy tech-
+niques: designing data-compression (Huffman) codes. In Section 16.4, we inves-
+tigate some of the theory underlying combinatorial structures called “matroids,”
+for which a greedy algorithm always produces an optimal solution. Finally, Sec-
+tion 16.5 applies matroids to solve a problem of scheduling unit-time tasks with
+deadlines and penalties.
+
+The greedy method is quite powerful and works well for a wide range of prob-
+lemis. Later chapters will present many algorithms that we can view as applica-
+tions of the greedy method, including minimum-spanning-tree algorithms (Chap-
+ter 23), Dijkstra’s algorithm for shortest paths from a single source (Chapter 24),
+and Chvatal’s greedy set-covering heuristic (Chapter 35). Minimum-spanning-tree
+
+“algorithms furnish a classic example of the greedy method. Although you can read
